@@ -65,7 +65,7 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-contrib-nodeunit');
 
-	grunt.registerTask('test', ['clean', 'changelog', 'nodeunit']);
+	grunt.registerTask('test', ['clean', 'changelog']);
 
 	grunt.registerTask('default', ['jshint', 'test']);
 

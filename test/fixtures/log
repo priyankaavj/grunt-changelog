@@ -1,6 +1,38 @@
-Fix 1 2 3. fixes #410
-Fix 4 5 6. Fixes #410
-fixes #410 Fix 7 8 9.
-Feature 1 2 3. closes #410
-Feature 4 5 6. Closes #410
-closes #410 Feature 7 8 9.
+commit b1cb4a8ba25a6643c5b7e869a70052c5f511c3e6
+Author: Darth Vader <anakin@deathstar.com>
+Date:   Thu Jan 9 17:30:48 2014 -0800
+
+    Adding a snippet
+
+commit bdb80e9af4b4ebde50b0d5420b6822c10f154e93
+Author: John Doe <jdoe@example.com>
+Date:   Thu Jan 9 17:00:27 2014 -0800
+
+    Adding some tests
+
+commit 89f10c093986d1b0d5dde025ff6940f55e8d49a8
+Merge: 4f97f4b 6bbc373
+Author: Jasone Borne <ultimate@example.com>
+Date:   Thu Jan 9 16:18:32 2014 -0800
+
+    Merging old code
+
+commit 4f97f4bc8fbf7a3779594773a7f6bae57f6304ca
+Author: Mr Superman <super@example.com>
+Date:   Thu Jan 9 16:15:47 2014 -0800
+
+    Fixing the issue
+
+commit 6bbc37349bf0e13f5e1a45cf07c09c0d301914d6
+Merge: fcca4e7 26f1893
+Author: Robin Thicke <robin@example.com>
+Date:   Thu Jan 9 15:53:47 2014 -0800
+
+    Updating the code
+
+
+
+
+
+
+

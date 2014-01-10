@@ -15,7 +15,7 @@ module.exports = function (grunt) {
 	grunt.registerMultiTask('changelog', 'Generate a changelog based on commit messages.', function () {
 		// Merge task-specific and/or target-specific options with these defaults.
 		var options = this.options({
-			featureRegex: /^(.*)closes #\d+:?(.*)$/gim,
+			featureRegex: /\s{6}.*/g,
 			fixRegex: /^(.*)fixes #\d+:?(.*)$/gim,
 			dest: 'changelog.txt',
 			templates: {
@@ -42,7 +42,7 @@ module.exports = function (grunt) {
 			while ((match = regex.exec(log))) {
 				var change = '';
 
-				for (var i = 1, len = match.length; i < len; i++) {
+				for (var i = 0, len = match.length; i < len; i++) {
 					change += match[i];
 				}
 

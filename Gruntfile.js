@@ -30,26 +30,13 @@ module.exports = function (grunt) {
 			default_options: {
 				options: {
 					log: 'test/fixtures/log',
-					dest: 'tmp/changelog_default'
-				}
-			},
-			formatting_options: {
-				options: {
-					log: 'test/fixtures/log',
-					dest: 'tmp/changelog_formatting',
-					templates: {
-						main: '{{fixes}}{{features}}\n',
-						change: '{{change}}',
-						empty: 'none'
-					}
-				}
-			},
-			regex_options: {
-				options: {
-					log: 'test/fixtures/log',
-					dest: 'tmp/changelog_regex',
-					featureRegex: /^closes #\d+:?(.*)$/gm,
-					fixRegex: /^fixes #\d+:?(.*)$/gm
+					snippet: 'test/fixtures/snippet',
+					dest: 'tmp/changelog_default',
+					startCommitId : '4f97f4bc8fbf7a3779594773a7f6bae57f6304ca',
+					endCommitId : 'bdb80e9af4b4ebde50b0d5420b6822c10f154e93',
+					startSnippetDate : '01-09-2014',
+					endSnippetDate : '01-11-2014'
+
 				}
 			}
 		},
